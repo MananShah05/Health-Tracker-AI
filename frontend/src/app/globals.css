@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #22c55e;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #a78bfa;
+  --color-secondary-foreground: #ffffff;
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-surface: #f8f8f8;
+  --color-surface-hover: #f0f0f0;
+  --color-border: #e5e5e5;
+  --color-muted-foreground: #737373;
+  --color-destructive: #ef4444;
+
+  --font-sans: var(--font-inter);
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme inline {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+    --color-surface: #161616;
+    --color-surface-hover: #222222;
+    --color-border: #2a2a2a;
+    --color-muted-foreground: #a1a1a1;
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+.panel-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Stagger animations for pattern cards */
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .panel-shadow {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
+  }
+}
