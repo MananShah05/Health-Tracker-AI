@@ -151,4 +151,6 @@ Thumbs.db
 
 # Docker logs
 docker-compose.override.yml
-.md 
+
+
+*.md
