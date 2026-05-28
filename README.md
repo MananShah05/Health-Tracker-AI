@@ -1,6 +1,6 @@
 # ✨ AI Health Habit Tracker ✨
 
-An elegant, Emil-inspired personal health companion that intelligently connects your food logs, sleep patterns, and physical activity to surface actionable, personalized behavioral insights. Powered by **Claude 3.5 Sonnet** and **GPT-4o Vision**, this application feels like a premium digital companion rather than a clinical dashboard.
+An elegant personal health companion that intelligently connects your food logs, sleep patterns, and physical activity to surface actionable, personalized behavioral insights. Powered by **GPT-4o Vision**, this application feels like a premium digital companion rather than a clinical dashboard.
 
 ---
 
